@@ -5,7 +5,7 @@
         "title_short": "Welcome!",
         "title_short_nav": "About me",
         "title_long_prefix": "Hey There !!",
-        "title_long": "I'm {{Kshtij Aucharmal!}}"
+        "title_long": "I'm {{Kshitij Aucharmal!}}"
       }
     }
   },
@@ -86,85 +86,127 @@
       "items": [
         {
           "id": 1,
-          "faIcon": "fa-solid fa-video",
-          "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
-          "locales": {
-            "en": {
-              "title": "{{AI}} video editing",
-              "text": "Learning to use AI tools to enhance my videos."
-            }
-          }
+          "faIcon": "fa-brands fa-python",
+          "faIconColors": { "bg": "", "fill": "#3776AB" },
+          "link": {
+            "href": "https://www.python.org",
+            "tooltipString": "Python.org"
+          },
+          "locales": { "en": { "title": "Python", "text": "" } }
         },
         {
           "id": 2,
-          "faIcon": "fa-solid fa-palette",
-          "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
-          "locales": {
-            "en": {
-              "title": "{{Arts}} & Illustration",
-              "text": "Practicing digital art and exploring new styles."
-            }
-          }
+          "faIcon": "fa-brands fa-rust",
+          "faIconColors": { "bg": "", "fill": "#DEA584" },
+          "link": {
+            "href": "https://www.rust-lang.org",
+            "tooltipString": "Rust-lang.org"
+          },
+          "locales": { "en": { "title": "Rust", "text": "" } }
         },
         {
           "id": 3,
-          "faIcon": "fa-solid fa-chart-line",
-          "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
-          "locales": {
-            "en": {
-              "title": "{{Investing}} & Finance",
-              "text": "Learning the basics of stocks and personal finance."
-            }
-          }
+          "faIcon": "fa-brands fa-cuttlefish",
+          "faIconColors": { "bg": "", "fill": "#00599C" },
+          "link": {
+            "href": "https://isocpp.org",
+            "tooltipString": "ISO C++"
+          },
+          "locales": { "en": { "title": "C++", "text": "" } }
         },
         {
           "id": 4,
-          "faIcon": "fa-solid fa-window-restore",
-          "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
-          "locales": {
-            "en": {
-              "title": "{{UX}} design",
-              "text": "Studying user experience principles."
-            }
-          }
+          "faIcon": "fa-brands fa-unity",
+          "faIconColors": { "bg": "", "fill": "#000000" },
+          "link": {
+            "href": "https://unity.com",
+            "tooltipString": "Unity Engine"
+          },
+          "locales": { "en": { "title": "Unity", "text": "" } }
         },
         {
           "id": 5,
-          "img": "",
-          "faIcon": "fa-solid fa-camera-retro",
-          "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
-          "locales": {
-            "en": {
-              "title": "{{Photography}} & Photoshop",
-              "text": "Enhancing photos through creative editing techniques."
-            }
-          }
+          "faIcon": "fa-solid fa-cube",
+          "faIconColors": { "bg": "", "fill": "#478cbf" },
+          "link": {
+            "href": "https://godotengine.org",
+            "tooltipString": "Godot Engine"
+          },
+          "locales": { "en": { "title": "Godot", "text": "" } }
         },
         {
           "id": 6,
-          "faIcon": "fa-solid fa-drum-steelpan",
-          "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
-          "locales": {
-            "en": {
-              "title": "Playing {{drums}}",
-              "text": "Exploring different genres and improving my skills."
-            }
-          }
+          "faIcon": "fa-solid fa-terminal",
+          "faIconColors": { "bg": "", "fill": "#333333" },
+          "link": {
+            "href": "https://kernel.org",
+            "tooltipString": "Linux Kernel"
+          },
+          "locales": { "en": { "title": "Linux", "text": "" } }
+        },
+        {
+          "id": 7,
+          "faIcon": "fa-brands fa-git-alt",
+          "faIconColors": { "bg": "", "fill": "#f05032" },
+          "link": {
+            "href": "https://git-scm.com",
+            "tooltipString": "Git SCM"
+          },
+          "locales": { "en": { "title": "Git", "text": "" } }
+        },
+        {
+          "id": 8,
+          "faIcon": "fa-brands fa-docker",
+          "faIconColors": { "bg": "", "fill": "#0db7ed" },
+          "link": {
+            "href": "https://www.docker.com",
+            "tooltipString": "Docker"
+          },
+          "locales": { "en": { "title": "Docker", "text": "" } }
+        },
+        {
+          "id": 9,
+          "faIcon": "fa-solid fa-vial",
+          "faIconColors": { "bg": "", "fill": "#ff4081" },
+          "link": {
+            "href": "https://www.langchain.com",
+            "tooltipString": "LangChain"
+          },
+          "locales": { "en": { "title": "LangChain", "text": "" } }
+        },
+        {
+          "id": 10,
+          "faIcon": "fa-solid fa-network-wired",
+          "faIconColors": { "bg": "", "fill": "#4caf50" },
+          "link": {
+            "href": "https://docs.crewai.com",
+            "tooltipString": "CrewAI Docs"
+          },
+          "locales": { "en": { "title": "CrewAI", "text": "" } }
+        },
+        {
+          "id": 11,
+          "faIcon": "fa-solid fa-mountain-sun",
+          "faIconColors": { "bg": "", "fill": "#607d8b" },
+          "link": {
+            "href": "https://www.khronos.org/vulkan/",
+            "tooltipString": "Vulkan Graphics API"
+          },
+          "locales": { "en": { "title": "Vulkan", "text": "" } }
+        },
+        {
+          "id": 12,
+          "faIcon": "fa-solid fa-paintbrush",
+          "faIconColors": { "bg": "", "fill": "#ff9800" },
+          "link": {
+            "href": "https://github.com/ocornut/imgui",
+            "tooltipString": "Dear ImGui"
+          },
+          "locales": { "en": { "title": "ImGui", "text": "" } }
         }
       ]
     },
+
     {
       "id": 5,
       "component": "ArticleInfoList",
@@ -173,85 +215,87 @@
         "order_items_sort": "asc"
       },
       "locales": {
-        "en": { "title": "Personal {{interests}}" }
+        "en": { "title": "Personal {{Interests}}" }
       },
       "items": [
         {
           "id": 1,
-          "faIcon": "fa-solid fa-video",
+          "faIcon": "fa-solid fa-puzzle-piece",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
           "locales": {
             "en": {
-              "title": "{{AI}} video editing",
-              "text": "Learning to use AI tools to enhance my videos."
+              "title": "Implementing Weird Algorithms",
+              "text": "From cellular automata to procedural generation and chaotic systems."
             }
           }
         },
         {
           "id": 2,
-          "faIcon": "fa-solid fa-palette",
+          "faIcon": "fa-solid fa-handshake-angle",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": "https://github.com/kshitijaucharmal",
+            "tooltipString": "See OSS Contributions"
+          },
           "locales": {
             "en": {
-              "title": "{{Arts}} & Illustration",
-              "text": "Practicing digital art and exploring new styles."
+              "title": "Open Source Contributions",
+              "text": "From club mentorship to merged PRs in CV tools like Roboflow Supervision."
             }
           }
         },
         {
           "id": 3,
-          "faIcon": "fa-solid fa-chart-line",
+          "faIcon": "fa-solid fa-brain",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
           "locales": {
             "en": {
-              "title": "{{Investing}} & Finance",
-              "text": "Learning the basics of stocks and personal finance."
+              "title": "Reading RL/AI Papers",
+              "text": "Keeping up with reinforcement learning and emergent behavior."
             }
           }
         },
         {
           "id": 4,
-          "faIcon": "fa-solid fa-window-restore",
+          "faIcon": "fa-solid fa-film",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
           "locales": {
             "en": {
-              "title": "{{UX}} design",
-              "text": "Studying user experience principles."
+              "title": "Anime Watcher",
+              "text": "I enjoy storytelling through anime — especially action and fantasy genres."
             }
           }
         },
         {
           "id": 5,
-          "img": "",
-          "faIcon": "fa-solid fa-camera-retro",
+          "faIcon": "fa-solid fa-gamepad",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
           "locales": {
             "en": {
-              "title": "{{Photography}} & Photoshop",
-              "text": "Enhancing photos through creative editing techniques."
+              "title": "Avid Gamer",
+              "text": "Mostly into singleplayer PC titles — big fan of Metroidvanias like *Hollow Knight*."
             }
           }
         },
         {
           "id": 6,
-          "faIcon": "fa-solid fa-drum-steelpan",
+          "faIcon": "fa-solid fa-futbol",
           "faIconColors": { "bg": "", "fill": "" },
-          "label": null,
-          "link": { "href": null, "tooltipString": null },
           "locales": {
             "en": {
-              "title": "Playing {{drums}}",
-              "text": "Exploring different genres and improving my skills."
+              "title": "Football",
+              "text": "Love playing and following football in my free time."
+            }
+          }
+        },
+        {
+          "id": 7,
+          "faIcon": "fa-solid fa-microphone",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Singing",
+              "text": "Occasionally perform vocals — music helps me reset mentally."
             }
           }
         }
