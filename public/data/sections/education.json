@@ -25,17 +25,17 @@
           "img": "images/pictures/timeline-place-college.png",
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
-          "dateStart": { "year": 2022, "month": 8 },
+          "dateStart": { "year": 2022, "month": 11 },
           "dateEnd": { "year": 2026, "month": 6 },
           "locales": {
             "en": {
-              "title": "B.E. in {{Computer Engineering}}",
+              "title": "B.E. in {{Electronics and Telecommunications Engineering}}",
               "province": "Pune",
               "country": "India",
               "institution": "Pune Institute of Computer Technology",
-              "text": "Currently pursuing my Bachelor's in Computer Engineering with a strong foundation in software development, systems programming, and AI. CGPA: 8.52 (Till 6th Sem)",
+              "text": "Currently pursuing my Bachelor's in ENTC Engineering with a strong foundation in Game development, systems programming, and AI. CGPA: 8.52 (Till 6th Sem)",
               "list": [],
-              "tags": ["Computer Engineering", "Bachelor's"]
+              "tags": ["Engineering", "Bachelor's"]
             }
           }
         },

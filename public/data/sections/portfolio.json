@@ -48,18 +48,23 @@
                 "faIcon": "fa-brands fa-github"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "/data/images/cf/1.png",
+              "/data/images/cf/2.png",
+              "/data/images/cf/3.png"
+            ],
             "screenshotsAspectRatio": "16:9",
             "youtubeVideo": ""
           },
           "locales": {
             "en": {
-              "title": "ConceptForge",
-              "text": "A custom <b>C++ game engine</b> using ECS architecture with Python scripting via nanobind. Built from scratch to explore low-level systems and performance.",
-              "tags": ["C++", "ECS", "Python", "Game Engine"]
+              "title": "Concept Forge",
+              "text": "Concept Forge is a lightweight, modular <b>game/simulation engine</b> built using modern C++, OpenGL, and Python. Based on the <b>Entity-Component-System (ECS)</b> architecture, it's designed for performance, flexibility, and expressiveness — with full control from both C++ and Python, and the main thing, <b>Natural Language</b>!",
+              "tags": ["C++", "OpenGL", "Python", "Game Engine", "LLM", "ECS"]
             }
           }
         },
+
         {
           "id": 2,
           "categoryId": "category_ai",
@@ -74,44 +79,438 @@
                 "faIcon": "fa-brands fa-github"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "/data/images/neatq/1.png",
+              "/data/images/neatq/2.png",
+              "/data/images/neatq/3.png"
+            ],
             "screenshotsAspectRatio": "16:9",
             "youtubeVideo": ""
           },
           "locales": {
             "en": {
               "title": "NEAT-Q-City",
-              "text": "A hybrid AI simulation combining <b>NeuroEvolution</b> and <b>DQNs</b> to evolve agents in a city-building sim.",
-              "tags": ["NEAT", "DQN", "RL", "Unity"]
+              "text": "Evolving <b>Deep Q-Learning</b> for Sustainable Virtual City Management. This project explores the synergy between <b>DQL</b> and <b>NEAT</b> to evolve intelligent agents in a city simulation — optimizing air quality, resource use, and economy. Both the DQN and NEAT algorithms were built <b>from scratch in Python</b>, with support for <b>backpropagation on NEAT-generated topologies</b>. Made for the INC competition at PICT.",
+              "tags": ["NEAT", "DQN", "Reinforcement Learning", "Python", "AI", "Backpropagation"]
             }
           }
-        },
+        } ,
         {
-          "id": 3,
-          "categoryId": "category_ai",
+  "id": 3,
+  "categoryId": "category_ai",
+  "img": "",
+  "faIcon": "fa-solid fa-terminal",
+  "faIconColors": { "bg": "", "fill": "#37474f" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://github.com/kshitijaucharmal/Bard-Shell",
+        "tooltipString": "See on GitHub",
+        "faIcon": "fa-brands fa-github"
+      }
+    ],
+    "screenshots": [ ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Gemini Shell",
+      "text": "<b>GeminiShell</b> (formerly Bard-Shell) is a smart terminal assistant that brings <b>Google’s Gemini AI</b> to your Linux terminal. Ask questions, debug code, generate scripts, and automate tasks — all from the command line. Built for efficiency and power users, now with <b>25+ stars</b> on GitHub!",
+      "tags": ["LLM", "CLI Tool", "Gemini API", "Python", "Automation"]
+    }
+  }
+},
+        {
+          "id": 4,
+          "categoryId": "category_lowlevel",
           "img": "",
-          "faIcon": "fa-solid fa-terminal",
-          "faIconColors": { "bg": "", "fill": "#37474f" },
+          "faIcon": "fa-solid fa-certificate",
+          "faIconColors": { "bg": "", "fill": "#ff9800" },
           "preview": {
             "links": [
               {
-                "href": "https://github.com/kshitijaucharmal/Bard-Shell",
+                "href": "https://github.com/kshitijaucharmal/Blockchain-Certificate",
                 "tooltipString": "See on GitHub",
                 "faIcon": "fa-brands fa-github"
               }
             ],
-            "screenshots": [],
+            "screenshots": [
+              "/data/images/bc/1.png",
+              "/data/images/bc/2.png",
+              "/data/images/bc/3.png"
+            ],
             "screenshotsAspectRatio": "16:9",
-            "youtubeVideo": ""
+            "youtubeVideo": "https://www.youtube.com/watch?v=uuyZ4DFsgeI"
           },
           "locales": {
             "en": {
-              "title": "Gemini Shell",
-              "text": "A <b>smart terminal assistant</b> that connects Linux commands and errors to Google's LLM (Gemini/Bard) for real-time feedback.",
-              "tags": ["LLM", "CLI Tool", "Gemini API", "Python"]
+              "title": "Blockchain Certificate",
+              "text": "A secure, decentralized platform for <b>issuing, storing, and verifying digital certificates</b> using <b>Blockchain</b> and <b>IPFS</b>. Built for <b>Smart India Hackathon 2023</b>, the system ensures authenticity and transparency of academic and professional credentials in a tamper-proof, user-friendly way.",
+              "tags": ["Blockchain", "IPFS", "Smart India Hackathon", "Solidity", "Web3", "Digital Credentials"]
             }
           }
-        }
+        },
+        {
+  "id": 6,
+  "categoryId": "category_ai",
+  "img": "",
+  "faIcon": "fa-solid fa-image",
+  "faIconColors": { "bg": "", "fill": "#00acc1" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://github.com/kshitijaucharmal/SIH-2024",
+        "tooltipString": "See on GitHub",
+        "faIcon": "fa-brands fa-github"
+      }
+    ],
+    "screenshots": [
+      "/data/images/sih2024/1.png",
+      "/data/images/sih2024/2.png",
+      "/data/images/sih2024/3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "SIH-2024: SAR Image Colorization using GAN",
+      "text": "Developed for <b>Smart India Hackathon 2024</b> by team Milkdromeda. This project uses <b>CycleGANs</b> to colorize <b>SAR (Sentinel-1)</b> satellite images. We implemented a custom loss function to minimize perceptual error and enhance realism in colorization results.",
+      "tags": ["GAN", "CycleGAN", "Satellite Imaging", "SAR", "Smart India Hackathon", "Deep Learning"]
+    }
+  }
+},
+{
+  "id": 7,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://strawhat-luffy.itch.io/bishop-challenge",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/7_1.png",
+      "/data/images/games/7_2.png",
+      "/data/images/games/7_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Bishop Challenge",
+      "text": "A mind-bending bishop puzzle game played on a 5x4 board. Swap black and white bishops without letting them enter each other’s attack range. Built as a challenge recreation.",
+      "tags": ["Game", "Indie", "Itch.io", "Puzzle", "Chess", "Godot"]
+    }
+  }
+},
+{
+  "id": 8,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://saurav-san007.itch.io/bunty-ki-duniya",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/8_1.png",
+      "/data/images/games/8_2.png",
+      "/data/images/games/8_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Bunty Ki Duniya",
+      "text": "A relaxing Indian hostel life RPG where you play as Bunty, helping fellow residents with chores and building community. Won 2nd prize at Mindspark Hackathon (COEP, Krafton India).",
+      "tags": ["Game", "Indie", "Itch.io", "RPG", "Indian Culture", "Hackathon"]
+    }
+  }
+},
+{
+  "id": 9,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://strawhat-luffy.itch.io/maze-master-2",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/9_1.png",
+      "/data/images/games/9_2.png",
+      "/data/images/games/9_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Maze Master 2",
+      "text": "Fight enemies in a maze, open portals, and collect elements to escape. But be careful — every enemy you defeat powers up the rest. Won 3rd prize in AIT Genesis 3 Gamejam.",
+      "tags": ["Game", "Indie", "Itch.io", "Maze", "Strategy", "Gamejam"]
+    }
+  }
+},
+{
+  "id": 10,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://saurav-san007.itch.io/rewind",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/10_1.png",
+      "/data/images/games/10_2.png",
+      "/data/images/games/10_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Rewind",
+      "text": "A physics-bending platformer where time loops and past selves create unique puzzles. Built in Love2D using Lua.",
+      "tags": ["Game", "Indie", "Itch.io", "Platformer", "Lua", "Love2D"]
+    }
+  }
+},
+{
+  "id": 11,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://saurav-san007.itch.io/sticky-tanks",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/11_1.png",
+      "/data/images/games/11_2.png",
+      "/data/images/games/11_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Sticky Tanks",
+      "text": "A 2-player tank battle with a twist: powerup slots and chain-reaction trails. Designed around ‘Chain Reaction’ and ‘First Contact’ themes.",
+      "tags": ["Game", "Indie", "Itch.io", "Multiplayer", "Tank", "Powerups"]
+    }
+  }
+},
+{
+  "id": 12,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://saurav-san007.itch.io/swamp-master",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/12_1.png",
+      "/data/images/games/12_2.png",
+      "/data/images/games/12_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Swamp Master",
+      "text": "Multiplayer 2D platformer battle royale where you use magic and hovering to survive the swamp. Submitted to Playbrutal Multiplayer Gamejam.",
+      "tags": ["Game", "Indie", "Itch.io", "Multiplayer", "Battle Royale", "Unity"]
+    }
+  }
+},
+{
+  "id": 13,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://strawhat-luffy.itch.io/syntastic",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/13_1.png",
+      "/data/images/games/13_2.png",
+      "/data/images/games/13_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Syntastic",
+      "text": "A tactical coding game where you program a robot to hack, shoot, distract, and destroy enemies using textual commands. Selected for 2nd round in AIT Genesis 4.",
+      "tags": ["Game", "Indie", "Itch.io", "Coding Game", "Strategy", "Grid"]
+    }
+  }
+},
+{
+  "id": 14,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://strawhat-luffy.itch.io/sinkem-all",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/14_1.png",
+      "/data/images/games/14_2.png",
+      "/data/images/games/14_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Oceano",
+      "text": "Click-based turret defense game made in a single day using Godot. Fire by wiring up charging stations and clicking enemies.",
+      "tags": ["Game", "Indie", "Itch.io", "Turret", "Clicker", "Godot"]
+    }
+  }
+},
+{
+  "id": 15,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://www.youtube.com/watch?v=HRytqPy9ULw",
+        "tooltipString": "See video mention",
+        "faIcon": "fa-brands fa-youtube"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/15_1.png",
+      "/data/images/games/15_2.png",
+      "/data/images/games/15_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": "https://www.youtube.com/watch?v=HRytqPy9ULw"
+  },
+  "locales": {
+    "en": {
+      "title": "Galactic Clash",
+      "text": "A card-based grid strategy game where you battle enemies using abilities across a 5x5 space grid. Honourable mention in Defold x Gamedevutopia Gamejam.",
+      "tags": ["Game", "Card Game", "Grid", "Defold", "Jam"]
+    }
+  }
+},
+{
+  "id": 16,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://strawhat-luffy.itch.io/illusion",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/16_1.png",
+      "/data/images/games/16_2.png",
+      "/data/images/games/16_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Illusion",
+      "text": "A speedrun puzzle game where you uncover illusions with a magic magnifying glass. Winner of Paricharcha X Glitched Gamejam (1st place).",
+      "tags": ["Game", "Puzzle", "Speedrun", "Jam", "Indie"]
+    }
+  }
+},
+{
+  "id": 17,
+  "categoryId": "category_games",
+  "img": "",
+  "faIcon": "fa-solid fa-gamepad",
+  "faIconColors": { "bg": "", "fill": "#42a5f5" },
+  "preview": {
+    "links": [
+      {
+        "href": "https://strawhat-luffy.itch.io/cursed-collectibles",
+        "tooltipString": "Play on itch.io",
+        "faIcon": "fa-brands fa-itch-io"
+      }
+    ],
+    "screenshots": [
+      "/data/images/games/17_1.png",
+      "/data/images/games/17_2.png",
+      "/data/images/games/17_3.png"
+    ],
+    "screenshotsAspectRatio": "16:9",
+    "youtubeVideo": ""
+  },
+  "locales": {
+    "en": {
+      "title": "Cursed Collectibles",
+      "text": "Solo-made indie multiplayer game. Switch between torch and gun to reveal and collect cursed vases across a spooky town.",
+      "tags": ["Game", "Multiplayer", "Exploration", "Solo Dev", "Indie"]
+    }
+  }
+}
       ]
     }
   ]
