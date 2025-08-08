@@ -17,6 +17,7 @@ import Portfolio from "/src/components/Portfolio.jsx";
 
 // For vercel analytics
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 /** Initialization Script... **/
 let container = null;
