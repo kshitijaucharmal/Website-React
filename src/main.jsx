@@ -39,6 +39,8 @@ const App = () => {
     <AppEssentialsWrapper>
       <AppCapabilitiesWrapper>
         <Portfolio />
+        <Analytics />
+        <SpeedInsights />
       </AppCapabilitiesWrapper>
     </AppEssentialsWrapper>
   );
