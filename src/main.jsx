@@ -16,8 +16,8 @@ import NavigationProvider from "/src/providers/NavigationProvider.jsx";
 import Portfolio from "/src/components/Portfolio.jsx";
 
 // For vercel analytics
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 /** Initialization Script... **/
 let container = null;
